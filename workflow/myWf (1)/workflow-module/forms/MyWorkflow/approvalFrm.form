@@ -1,0 +1,21 @@
+{
+    "id": "approvalfrm",
+    "schemaVersion": "1.1.0",
+    "name": "approvalFrm",
+    "revision": "1.0",
+    "type": "task",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "test",
+            "type": "string",
+            "label": "Test",
+            "readOnly": false,
+            "value": "${context.test}",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "decisions": []
+}
